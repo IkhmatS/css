@@ -1,0 +1,75 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes and Ids</title>
+    <style>
+      body {
+        background-color: #fbfbfe;
+        color: #17230b;
+      }
+      h1 {
+        font-size: 40px;
+        text-align: center;
+      }
+      p {
+        font-size: 24px;
+      }
+      #style-by-id {
+        font-family: Georgia, Cambria, serif;
+        font-weight: bold;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        padding: 5px;
+        margin: 4px;
+        font-size: 20px;
+      }
+      .nav-link {
+        padding: 5px;
+        margin: 4px;
+        border: 2px solid black;
+        color: #eeffee;
+        background-color: #003100;
+      }
+      .nav-link li {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Header and all other content must be added in the body and not in the head tag. Do not do that, you will lose marks if you do that. -->
+    <header>
+      <nav>
+        <ul>
+          <!--Put anchors around lists as best practice, due to having better accessibility-->
+          <a href="index.html" class="nav-link"><li>Inline CSS Page</li></a>
+          <a href="internal-css.html" class="nav-link"
+            ><li>Internal CSS Page</li></a
+          >
+          <a href="external-css.html" class="nav-link"
+            ><li>External CSS Page</li></a
+          >
+          <a href="testing-cascading.html" class="nav-link"
+            ><li>Cascading Page</li></a
+          >
+          <a href="classes-and-ids.html" class="nav-link"
+            ><li>Classes and Ids Page</li></a
+          >
+        </ul>
+      </nav>
+      <h1>Classes and IDs CSS</h1>
+    </header>
+    <p>This page shows the use of classes and ids on a web page.</p>
+    <p id="style-by-id">
+      This paragraph will show the effect of giving an element an ID and styling
+      that ID.
+    </p>
+  </body>
+</html>
